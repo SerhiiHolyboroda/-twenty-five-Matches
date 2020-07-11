@@ -1,0 +1,309 @@
+.contant{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.control{
+  display: flex;
+  flex-direction: column;
+  .Languages{
+     
+margin: 0 auto;
+margin-top: 20px;
+    margin-bottom:  20px;
+  }
+  &__languages{
+    
+  display: flex;
+ justify-content: space-between;
+ 
+  &__Russian{
+     
+    background-image: url(./img/russia.jpg);
+    height:120px;
+    width: 250px;
+    background-size:cover;
+  }
+  &__English{
+    background-image: url(./img/English.jpg);
+    height:120px;
+    width: 250px;
+    background-size:cover;
+    margin: 0  10% 0  10%;
+  }
+  &__Ukrainian{
+    background-image: url(./img/Ukrainian.jpg);
+    height:120px;
+    width: 250px;
+    background-size:cover;
+  }
+  }
+
+  &__gameDifficulty{
+    
+ 
+  &___easy{
+    
+  }
+  &__medium{
+    
+  }
+  &__hard{
+    
+  }
+}
+}
+
+
+
+   
+// }
+// .image{
+    
+//   background: url(./img/matches.png);
+//   background-size: cover;
+// height: 50px;
+// width: 200px;
+
+// }
+// body {
+//     background: black;
+//   }
+  
+ 
+//       .box{
+//         bottom: 0;
+  
+//           color: red;
+ 
+        
+// display: flex;
+// flex-direction: row;
+// justify-content: space-between;
+ 
+//       }
+
+// // @keyframes straightLine {
+// //   1% {
+// //       transform:rotate(20deg) translate3D(0, 0, 0);
+      
+// //     }
+// //     10% {
+// //       transform: rotate(40deg) translate3D(200px, -200px, 0);
+  
+// //     }
+// //     20% {
+// //         transform: rotate(60deg) translate3D(200px, 0px, 0);
+ 
+// //       }
+// //       30% {
+// //         transform:rotate(80deg) translate3D(400px, -200px, 0);
+ 
+// //       }
+// //       40% {
+// //         transform:rotate(120deg) translate3D(400px, 0px, 0);
+     
+// //         }
+// //         60% {
+// //           transform: translate3D(600px,-200px, 0);
+          
+// //           }
+// //           80% {
+// //             transform: translate3D(600px, 0px, 0);
+             
+// //             }
+// //             100% {
+// //               transform: translate3D(800px,-200px, 0);
+// //                 // transform: rotate(0deg);
+// //               }
+        
+// //   }
+// @keyframes straightLine {
+  
+//     0% {
+//       transform: translate3D(0,0, 0);
+//       // transform: translate3D(1000px,-200px, 0);
+ 
+//       }
+     
+      
+//         60% {
+//           transform: translate3D(1000px,-200px, 0);
+ 
+          
+//           }
+       
+//             // 80% {
+//             //   transform: translate3D(800px,-200, 0);
+//             //     // transform: rotate(0deg);
+//             //   }
+//               100% {
+//                 transform: translate3D(1000px,0px, 0);
+         
+//                   // transform: rotate(0deg);
+//                 }
+        
+//   }
+//   .dot {
+//     bottom: 0;
+//     bottom: 0;
+//     position: absolute;
+//     // animation: straightLine 4s 
+//     animation: straightLine 4s linear;
+//   }
+body{
+  margin:0;
+  padding:0;
+  display:flex;
+ 
+  height: 100vh;
+  justify-content:center;
+}
+  // align-items:center;
+  // font-family:sans-serif;
+ 
+//   .indicator{
+//     margin-top: 10%;
+//     position:relative;
+//     width:250px;
+//     height:250px;
+    
+//     transform:rotate(45deg);
+ 
+//     span{
+
+//      bottom: 0;
+//       margin-top: 10%;
+ 
+//       position:absolute;
+//       left:0;
+//       top:0;
+//       width:100%;
+//       height:100%;
+//       box-sizing:border-box;
+//       border:none;
+//       border-bottom:3px solid #fff;
+//       border-right:3px solid #fff;
+//       animation:animate 1s linear infinite;
+ 
+//         background: url(./img/matches.png);
+//         background-repeat: no-repeat;
+//         background-size: contain;
+//         &:nth-child(1){
+//           top:-30px;
+//           left:-30px;
+//           animation-delay:0.3s;
+//           margin-top: 10px;
+//         }
+//         &:nth-child(2){
+//           top:-15px;
+//           left:-15px;
+//           animation-delay:0.6s;
+//           margin-top: 10px;
+//         }
+//         &:nth-child(3){
+//           top:0;
+//           left:0;
+//           animation-delay:0.9s;
+//           margin-top: 10px;
+//         }
+//         &:nth-child(4){
+//           top:15px;
+//           left:15px;
+//           animation-delay:1.2s;
+//           margin-top: 10px;
+//           margin-bottom: 10px;
+//         }
+//         // &:nth-child(5){
+//         //   top:-30px;
+//         //   left:-30px;
+//         //   animation-delay:1.5s;
+//         // }
+//       }}}
+ 
+  
+// @keyframes animate{
+//   0%{
+ 
+//     background: url(./img/matches.png);
+//     transform:translate(0,0);
+//   }
+//   //  20%{
+ 
+//   //   background: url(./img/matches.png);
+//   //    transform:translate(15px,15px);
+//   // }
+//    20.1%,100%{
+ 
+//     background: url(./img/matches.png);
+//   }
+// } 
+
+
+.Matches{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+&__match{
+  display: flex;
+  flex-direction: column;
+ 
+&__top{
+  
+  .flame{
+    margin-top:20px;
+ margin-left: 15px;
+    position: absolute;
+    width:50px;
+    height:50px;
+    background:linear-gradient(-45deg, red, orange);
+    border-radius: 150px 150px 0px 150px;
+    transform:rotate(-135deg);
+    animation:.1s flame infinite;
+    filter:blur(10px);
+    
+    box-shadow:17px 20px 90px #700;
+    border:45px solid   red;
+    border-left-width:25px;
+    border-top-width:25px;
+    
+    &:after,
+    &:before{
+      content:'';
+      width:10px;
+      height:10px;
+      display:block;
+      position:absolute;
+      background:linear-gradient(-45deg, red, orange);
+      animation:.2s flame infinite;
+      transform:scale(.8) rotate(20deg);
+      border-radius: 100px 100px 0px 100px;
+      top:20px;
+    }
+    &:before{
+      top:0;
+      animation-duration:.09s;
+      transform:scale(.9) rotate(-15deg) translate(10px, 0px);
+    }
+  }
+  
+ 
+}
+ 
+
+                  
+&__bottom{
+  margin-top: 50px;
+   
+  height: 300px;
+  width: 100px;
+  background-image: url(./img/matches.png);
+  background-size: cover;
+                    }
+ 
+}}
+@keyframes flame{
+  0% {height:20px; width:20px;}
+  50% {height:25px; width:25px;}
+  100% {height:20px; width:20px;}
+}
