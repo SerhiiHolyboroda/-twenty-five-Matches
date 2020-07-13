@@ -3,9 +3,9 @@
 function startFirstFlame(event){
    
 if (event.target.className == 'control__languages__English' ){document.querySelector('.Languages').innerHTML = 'English' 
-document.querySelector('.text1').innerHTML = 'Easy' ;  document.querySelector('.changetext1').innerHTML = 'Простой режим. Вы ходите первыми. Ваш противник действует хаотично.'
-document.querySelector('.text2').innerHTML = 'Medium' ;  document.querySelector('.changetext2').innerHTML = 'Сложный режим . Ваш противник ходит первым и будет  пытаться вас обыграть.'
-document.querySelector('.text3').innerHTML = 'Custom'   ; document.querySelector('.changetext3').innerHTML = 'Пользовательский . Вы  можете настроить колличество спичек.'
+document.querySelector('.text1').innerHTML = 'Easy' ;  document.querySelector('.changetext1').innerHTML = 'You go first you opponent isnt very smart'
+document.querySelector('.text2').innerHTML = 'Medium' ;  document.querySelector('.changetext2').innerHTML = 'He will try hard to win.'
+document.querySelector('.text3').innerHTML = 'Custom'   ; document.querySelector('.changetext3').innerHTML = 'You can set your own settings.'
 }
 if (event.target.className == 'control__languages__Russian' ){document.querySelector('.Languages').innerHTML =   'Русский' 
 document.querySelector('.text1').innerHTML = 'Легко'    ; document.querySelector('.changetext1').innerHTML = 'Простой режим. Вы ходите первыми. Ваш противник действует хаотично.'
