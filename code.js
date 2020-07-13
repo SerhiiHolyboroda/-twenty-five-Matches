@@ -4,7 +4,7 @@ function startFirstFlame(event){
    
 if (event.target.className == 'control__languages__English' ){document.querySelector('.Languages').innerHTML = 'English' 
 document.querySelector('.text1').innerHTML = 'Easy' ;  document.querySelector('.changetext1').innerHTML = 'You go first you opponent isnt very smart'
-document.querySelector('.text2').innerHTML = 'Medium' ;  document.querySelector('.changetext2').innerHTML = 'He will try hard to win.'
+document.querySelector('.text2').innerHTML = 'Medium' ;  document.querySelector('.changetext2').innerHTML = 'Your opponent go first .He will try hard to win.'
 document.querySelector('.text3').innerHTML = 'Custom'   ; document.querySelector('.changetext3').innerHTML = 'You can set your own settings.'
 }
 if (event.target.className == 'control__languages__Russian' ){document.querySelector('.Languages').innerHTML =   'Русский' 

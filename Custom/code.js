@@ -2,7 +2,7 @@
  let yourMatchCount = 0 ;
  let hisMatchCount = 0 ;
  console.log('All' , matchCount)
- document.querySelector('.header__count').innerText = matchCount
+ document.querySelector('.header__count').innerText = (2 *  matchCount) +1
  
  
 function sayHi() {
