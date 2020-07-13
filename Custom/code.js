@@ -1,8 +1,9 @@
- let matchCount = prompt("Введите колличество спичек!",  ) ;
+ let prom = prompt("Введите колличество спичек!",  ) ;
+ let matchCount = ( 2 * prom) +1
  let yourMatchCount = 0 ;
  let hisMatchCount = 0 ;
  console.log('All' , matchCount)
- document.querySelector('.header__count').innerText = (2 *  matchCount) +1
+ document.querySelector('.header__count').innerText =    matchCount 
  
  
 function sayHi() {
