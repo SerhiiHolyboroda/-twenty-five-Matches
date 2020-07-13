@@ -3,19 +3,19 @@
 function startFirstFlame(event){
    
 if (event.target.className == 'control__languages__English' ){document.querySelector('.Languages').innerHTML = 'English' 
-document.querySelector('.text1').innerHTML = 'Easy'
-document.querySelector('.text2').innerHTML = 'Medium'
-document.querySelector('.text3').innerHTML = 'Hard'
+document.querySelector('.text1').innerHTML = 'Easy' ;  document.querySelector('.changetext1').innerHTML = 'Простой режим. Вы ходите первыми. Ваш противник действует хаотично.'
+document.querySelector('.text2').innerHTML = 'Medium' ;  document.querySelector('.changetext2').innerHTML = 'Сложный режим . Ваш противник ходит первым и будет  пытаться вас обыграть.'
+document.querySelector('.text3').innerHTML = 'Custom'   ; document.querySelector('.changetext3').innerHTML = 'Пользовательский . Вы  можете настроить колличество спичек.'
 }
 if (event.target.className == 'control__languages__Russian' ){document.querySelector('.Languages').innerHTML =   'Русский' 
-document.querySelector('.text1').innerHTML = 'Легко'
-document.querySelector('.text2').innerHTML = 'Средне'
-document.querySelector('.text3').innerHTML = 'Сложно'
+document.querySelector('.text1').innerHTML = 'Легко'    ; document.querySelector('.changetext1').innerHTML = 'Простой режим. Вы ходите первыми. Ваш противник действует хаотично.'
+document.querySelector('.text2').innerHTML = 'Средне' ; document.querySelector('.changetext2').innerHTML = 'Сложный режим . Ваш противник ходит первым и будет  пытаться вас обыграть.'
+document.querySelector('.text3').innerHTML = 'Пользовательский' ; document.querySelector('.changetext3').innerHTML = 'Вы можете настроить колличество спичек .'
 }
 if (event.target.className == 'control__languages__Ukrainian' ){document.querySelector('.Languages').innerHTML =  'Українська'  
-document.querySelector('.text1').innerHTML = 'Легко'
-document.querySelector('.text2').innerHTML = 'Середнє'
-document.querySelector('.text3').innerHTML = 'Складно'
+document.querySelector('.text1').innerHTML = 'Легко'  ; 
+document.querySelector('.text2').innerHTML = 'Середнє' ; document.querySelector('.changetext2').innerHTML = 'Складний режим . Ваш противник ходить першим і буде намагатись вас обіграти.'
+document.querySelector('.text3').innerHTML = 'Користуваьцкий' ; document.querySelector('.changetext3').innerHTML = 'Ви можете налаштувати кількість сірників'
 }
  
 }

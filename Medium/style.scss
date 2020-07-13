@@ -4,7 +4,9 @@ $brick-width: 8vw;
 $brick-height:2vw;
 $brick-space: 2px;
 $brick-side-space: 4px;
-
+.leftSide{
+visibility: hidden;
+}
 .header {
   display: flex;
   justify-content: space-between;

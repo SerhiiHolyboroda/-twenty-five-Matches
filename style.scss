@@ -45,14 +45,39 @@ margin-top: 20px;
     display: flex;
  
     justify-content: space-between;
-  &___easy{
- 
+     
+  &__easy{
+    margin-top: 10%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ .changetext1{
+   width: 60%;
+  word-wrap: break-word;
+}
+  
   }
   &__medium{
-    
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .changetext2{
+      width: 50%;
+     word-wrap: break-word;
+   }
   }
   &__hard{
-    
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .changetext3{
+       
+        width: 60%;
+       word-wrap: break-word;
+  
+    }
   }
 }
 }
