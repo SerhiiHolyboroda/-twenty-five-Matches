@@ -13,7 +13,7 @@ document.querySelector('.text2').innerHTML = 'Средне' ; document.querySele
 document.querySelector('.text3').innerHTML = 'Пользовательский' ; document.querySelector('.changetext3').innerHTML = 'Вы можете настроить колличество спичек .'
 }
 if (event.target.className == 'control__languages__Ukrainian' ){document.querySelector('.Languages').innerHTML =  'Українська'  
-document.querySelector('.text1').innerHTML = 'Легко'  ; 
+document.querySelector('.text1').innerHTML = 'Легко'  ;   document.querySelector('.changetext1').innerHTML = 'Простий режим . Ви ходите першими.'
 document.querySelector('.text2').innerHTML = 'Середнє' ; document.querySelector('.changetext2').innerHTML = 'Складний режим . Ваш противник ходить першим і буде намагатись вас обіграти.'
 document.querySelector('.text3').innerHTML = 'Користуваьцкий' ; document.querySelector('.changetext3').innerHTML = 'Ви можете налаштувати кількість сірників'
 }
