@@ -9,23 +9,24 @@
 <body>
     <div class="contant"> 
    <div class="control">
-       <div class="Languages" >Languages <p>Hello. Do you want to view <a href="./Game/index.html">page 2</a> ?</p></div>
+       <div class="Languages" >Languages  
+      </div>
     <div class="control__languages">
        
         
-        <div class="control__languages__Ukrainian" onclick="startFirstFlame(event)"></div>
+        <div class="control__languages__Ukrainian"  onclick="startFirstFlame(event)" ></div>
         <div class="control__languages__English" onclick="startFirstFlame(event)"></div>
         <div class="control__languages__Russian" onclick="startFirstFlame(event)"></div>
     </div> 
     <div class="control__gameDifficulty">
-        <div class="control__gameDifficulty__easy" onclick="startSecondFlame()">Easy</div>
-        <div class="control__gameDifficulty__medium"onclick="startSecondFlame()" >Medium</div>
-        <div class="control__gameDifficulty__hard" onclick="startSecondFlame()">Hard</div>
+        <div class="control__gameDifficulty__easy" onmouseover="changeClass1() " onmouseout="changeClassBack1()" ><a href="./Easy/index.html"> <div class="text1"  >Easy</div> </a> </div>
+        <div class="control__gameDifficulty__medium"  onmouseover="changeClass2() " onmouseout="changeClassBack2()"><div class="text2">Medium</div></div>
+        <div class="control__gameDifficulty__hard"  onmouseover="changeClass3() " onmouseout="changeClassBack3()"><div class="text3" >Hard</div></div>
     </div> 
    </div> 
             <!-- <div class="indicator">
                 <span></span>
-                <span></span>
+                <span></span> <p>Hello. Do you want to view <a href="./Game/index.html">page 2</a> ?</p>
                 <span></span>
                 <span></span>
                  <span></span>

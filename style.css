@@ -55,6 +55,16 @@
   background-size: cover;
 }
 
+.control__gameDifficulty {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -85,50 +95,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.Matches__match__top .flame {
-  margin-top: 20px;
-  margin-left: 15px;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background: linear-gradient(-45deg, red, orange);
-  border-radius: 150px 150px 0px 150px;
-  -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
-  -webkit-animation: .1s flame infinite;
-          animation: .1s flame infinite;
-  -webkit-filter: blur(10px);
-          filter: blur(10px);
-  -webkit-box-shadow: 17px 20px 90px #700;
-          box-shadow: 17px 20px 90px #700;
-  border: 45px solid   red;
-  border-left-width: 25px;
-  border-top-width: 25px;
-}
-
-.Matches__match__top .flame:after, .Matches__match__top .flame:before {
-  content: '';
-  width: 10px;
-  height: 10px;
-  display: block;
-  position: absolute;
-  background: linear-gradient(-45deg, red, orange);
-  -webkit-animation: .2s flame infinite;
-          animation: .2s flame infinite;
-  -webkit-transform: scale(0.8) rotate(20deg);
-          transform: scale(0.8) rotate(20deg);
-  border-radius: 100px 100px 0px 100px;
-  top: 20px;
-}
-
-.Matches__match__top .flame:before {
-  top: 0;
-  -webkit-animation-duration: .09s;
-          animation-duration: .09s;
-  -webkit-transform: scale(0.9) rotate(-15deg) translate(10px, 0px);
-          transform: scale(0.9) rotate(-15deg) translate(10px, 0px);
 }
 
 .Matches__match__bottom {
@@ -167,5 +133,137 @@ body {
     height: 20px;
     width: 20px;
   }
+}
+
+.flame1 {
+  margin-top: 20px;
+  margin-left: 15px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(-45deg, red, orange);
+  border-radius: 150px 150px 0px 150px;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  -webkit-animation: .1s flame infinite;
+          animation: .1s flame infinite;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  -webkit-box-shadow: 17px 20px 90px #700;
+          box-shadow: 17px 20px 90px #700;
+  border: 45px solid   red;
+  border-left-width: 25px;
+  border-top-width: 25px;
+}
+
+.flame1:after, .flame1:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  background: linear-gradient(-45deg, red, orange);
+  -webkit-animation: .2s flame infinite;
+          animation: .2s flame infinite;
+  -webkit-transform: scale(0.8) rotate(20deg);
+          transform: scale(0.8) rotate(20deg);
+  border-radius: 100px 100px 0px 100px;
+  top: 20px;
+}
+
+.flame1:before {
+  top: 0;
+  -webkit-animation-duration: .09s;
+          animation-duration: .09s;
+  -webkit-transform: scale(0.9) rotate(-15deg) translate(10px, 0px);
+          transform: scale(0.9) rotate(-15deg) translate(10px, 0px);
+}
+
+.flame2 {
+  margin-top: 20px;
+  margin-left: 15px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(-45deg, red, orange);
+  border-radius: 150px 150px 0px 150px;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  -webkit-animation: .1s flame infinite;
+          animation: .1s flame infinite;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  -webkit-box-shadow: 17px 20px 90px #700;
+          box-shadow: 17px 20px 90px #700;
+  border: 45px solid   red;
+  border-left-width: 25px;
+  border-top-width: 25px;
+}
+
+.flame2:after, .flame2:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  background: linear-gradient(-45deg, red, orange);
+  -webkit-animation: .2s flame infinite;
+          animation: .2s flame infinite;
+  -webkit-transform: scale(0.8) rotate(20deg);
+          transform: scale(0.8) rotate(20deg);
+  border-radius: 100px 100px 0px 100px;
+  top: 20px;
+}
+
+.flame2:before {
+  top: 0;
+  -webkit-animation-duration: .09s;
+          animation-duration: .09s;
+  -webkit-transform: scale(0.9) rotate(-15deg) translate(10px, 0px);
+          transform: scale(0.9) rotate(-15deg) translate(10px, 0px);
+}
+
+.flame3 {
+  margin-top: 20px;
+  margin-left: 15px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(-45deg, red, orange);
+  border-radius: 150px 150px 0px 150px;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  -webkit-animation: .1s flame infinite;
+          animation: .1s flame infinite;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  -webkit-box-shadow: 17px 20px 90px #700;
+          box-shadow: 17px 20px 90px #700;
+  border: 45px solid   red;
+  border-left-width: 25px;
+  border-top-width: 25px;
+}
+
+.flame3:after, .flame3:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  background: linear-gradient(-45deg, red, orange);
+  -webkit-animation: .2s flame infinite;
+          animation: .2s flame infinite;
+  -webkit-transform: scale(0.8) rotate(20deg);
+          transform: scale(0.8) rotate(20deg);
+  border-radius: 100px 100px 0px 100px;
+  top: 20px;
+}
+
+.flame3:before {
+  top: 0;
+  -webkit-animation-duration: .09s;
+          animation-duration: .09s;
+  -webkit-transform: scale(0.9) rotate(-15deg) translate(10px, 0px);
+          transform: scale(0.9) rotate(-15deg) translate(10px, 0px);
 }
 /*# sourceMappingURL=style.css.map */

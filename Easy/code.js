@@ -2,6 +2,7 @@
  let yourMatchCount = 0 ;
  let hisMatchCount = 0 ;
  console.log('All' , matchCount)
+ document.querySelector('.header__count').innerText = matchCount
 // function startFirstFlame(event){
    
 // if (event.target.className == 'control__languages__English' ){document.querySelector('.Languages').innerHTML = 'English' 
@@ -28,44 +29,55 @@
  
 function sayHi() {
   document.querySelector(".Match1").style.display ='none'; 
-  document.querySelector(".RightSide__Matches").innerText = +1 ;
+  document.querySelector(".rightSide__Matches__text").innerText = +1 ;
   let new_row = document.createElement('div'); new_row.className = "SmallM";
-  document.querySelector(".leftSide__Matches").appendChild(new_row)
+  document.querySelector(".leftSide__Matches__text").appendChild(new_row)
 
 }
+ 
 function fly(x){
+  if(hisMatchCount +  yourMatchCount < 25 ){
+
+  
   document.querySelector('.header__count').innerText = matchCount
   matchCount -=   x
   console.log(x , matchCount)
  
  yourMatchCount += x
- document.querySelector('.leftSide__Matches').innerText =  yourMatchCount
+ document.querySelector('.leftSide__Matches__text').innerText =  yourMatchCount
 
  let randomNumber = Math.floor((Math.random() * 3) +1);
  if(matchCount >  3   ){
   matchCount -= randomNumber
   document.querySelector('.header__count').innerText = matchCount
   hisMatchCount += randomNumber  
-  document.querySelector('.rightSide__Matches').innerText =   hisMatchCount
+  document.querySelector('.rightSide__Matches__text').innerText =   hisMatchCount
     document.querySelector('.header__count').innerText = matchCount
  }
  if(matchCount <=  3   ){
+    
+  hisMatchCount += matchCount
  matchCount -= matchCount
+  
  document.querySelector('.header__count').innerText = matchCount
- hisMatchCount += matchCount
- document.querySelector('.rightSide__Matches').innerText =   hisMatchCount
+  
+ document.querySelector('.rightSide__Matches__text').innerText =   hisMatchCount
  
  document.querySelector('.header__count').innerText = matchCount
 
-
- 
- if ( yourMatchCount % 2 == 0) {
-  document.querySelector('.header__count').innerText = 'You won!'
- } else if(hisMatchCount % 2  == 0 ){
-  document.querySelector('.header__count').innerText = 'You lose!'
- }
 
 }
+ if(hisMatchCount +  yourMatchCount >= 25 ){
+ 
+ if ( yourMatchCount % 2 == 0) {
+  document.querySelector('.header__count').innerText = 'You win!'
+ } 
+  if( yourMatchCount % 2  != 0 ){
+ 
+  document.querySelector('.header__count').innerText = 'You lose!'
+ }
+}}
+ 
 (function loop() {
   calc();
   move(div, pos);
