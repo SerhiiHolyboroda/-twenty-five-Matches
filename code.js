@@ -4,7 +4,7 @@ function startFirstFlame(event){
    
 if (event.target.className == 'control__languages__English' ){document.querySelector('.Languages').innerHTML = 'English' 
 document.querySelector('.text1').innerHTML = 'Easy' ;  document.querySelector('.changetext1').innerHTML = 'You go first you opponent isnt very smart'
-document.querySelector('.text2').innerHTML = 'Medium' ;  document.querySelector('.changetext2').innerHTML = 'Your opponent go first .He will try hard to win.'
+document.querySelector('.text2').innerHTML = 'Medium' ;  document.querySelector('.changetext2').innerHTML = 'Your opponent goes first .He will try hard to win.'
 document.querySelector('.text3').innerHTML = 'Custom'   ; document.querySelector('.changetext3').innerHTML = 'You can set your own settings.'
 }
 if (event.target.className == 'control__languages__Russian' ){document.querySelector('.Languages').innerHTML =   'Русский' 
@@ -15,7 +15,7 @@ document.querySelector('.text3').innerHTML = 'Пользовательский' 
 if (event.target.className == 'control__languages__Ukrainian' ){document.querySelector('.Languages').innerHTML =  'Українська'  
 document.querySelector('.text1').innerHTML = 'Легко'  ;   document.querySelector('.changetext1').innerHTML = 'Простий режим . Ви ходите першими.'
 document.querySelector('.text2').innerHTML = 'Середнє' ; document.querySelector('.changetext2').innerHTML = 'Складний режим . Ваш противник ходить першим і буде намагатись вас обіграти.'
-document.querySelector('.text3').innerHTML = 'Користуваьцкий' ; document.querySelector('.changetext3').innerHTML = 'Ви можете налаштувати кількість сірників'
+document.querySelector('.text3').innerHTML = 'Користувацький' ; document.querySelector('.changetext3').innerHTML = 'Ви можете налаштувати кількість сірників'
 }
  
 }
