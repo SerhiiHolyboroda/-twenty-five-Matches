@@ -17,6 +17,7 @@ document.querySelector('#name').addEventListener("keyup", function(event) {
   // Number 13 is the "Enter" key on the keyboard
   if (event.keyCode === 13) {
     let x =  +document.querySelector('#name').value 
+    document.querySelector('#name').value = ""
     console.log(typeof x)
     fly(x)
     // Cancel the default action, if needed
